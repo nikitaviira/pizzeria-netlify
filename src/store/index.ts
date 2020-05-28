@@ -7,7 +7,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
     state: {
-        baseURL: 'https://localhost:5001/api/'
+        baseURL: 'https://pizzeria-nekitosa.azurewebsites.net/api/'
     },
     modules: {
         user: User,
