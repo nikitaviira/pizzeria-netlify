@@ -1,0 +1,45 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "trailing-comma": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "no-empty-interface": true,
+    "curly": true,
+    "no-var-keyword": true,
+    "triple-equals": true,
+    "prefer-const": true,
+    "restrict-plus-operands": true,
+    "arrow-return-shorthand": true,
+    "typedef-whitespace": true,
+    "no-irregular-whitespace": true,
+    "class-name": true,
+    "newline-before-return": true,
+    "unnecessary-bind": true,
+    "type-literal-delimiter": true,
+    "prefer-while": true,
+    "prefer-method-signature": true,
+    "max-line-length": [true, 120],
+    "no-consecutive-blank-lines": [true, 2],
+    "member-access": [true, "no-public"],
+    "prefer-template": [true, "allow-single-concat"],
+    "no-trailing-whitespace": [true, "ignore-comments"],
+    "indent": [true, "spaces", 2],
+    "array-type": [true, "array"],
+    "no-empty": [true, "allow-empty-catch", "allow-empty-functions"],
+    "interface-name": [true, "always-prefix"],
+    "align": [true, "parameters", "statements"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "semicolon": [true, "always", "ignore-interfaces"],
+    "space-before-function-paren": [true, "never"],
+    "quotemark": [true, "single"]
+  }
+}
